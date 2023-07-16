@@ -121864,7 +121864,7 @@ async function init() {
   await viewer.IFC.setWasmPath("./");
   
   // Load the model without user input
-  ifcModel = await viewer.IFC.loadIfcUrl('./ifc_files/aveva_230224.ifc');
+  ifcModel = await viewer.IFC.loadIfcUrl('./ifc_files/aveva_230601.ifc');
   
   // Load th model with user input
   const loadButton = document.getElementById("load-button");
