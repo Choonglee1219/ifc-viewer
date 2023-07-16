@@ -1,0 +1,25 @@
+{
+  "name": "ifcviewer",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Choonghyun Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.26.0"
+  },
+  "dependencies": {
+    "dexie": "^3.2.4",
+    "three": "0.135",
+    "uuid": "^9.0.0",
+    "web-ifc": "0.0.35",
+    "web-ifc-three": "0.0.118",
+    "web-ifc-viewer": "1.0.207"
+  }
+}
